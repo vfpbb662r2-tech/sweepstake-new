@@ -1,0 +1,50 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+catalog:
+  # React ecosystem
+  react: ^18.2.0
+  react-dom: ^18.2.0
+  react-native: 0.72.6
+  
+  # Next.js
+  next: ^14.0.0
+  
+  # Expo
+  expo: ~49.0.15
+  expo-router: ~2.0.0
+  
+  # TypeScript
+  typescript: ^5.2.2
+  "@types/react": ^18.2.0
+  "@types/react-dom": ^18.2.0
+  "@types/node": ^20.8.0
+  
+  # Database & ORM
+  prisma: ^5.6.0
+  "@prisma/client": ^5.6.0
+  
+  # Authentication
+  next-auth: ^4.24.0
+  "@next-auth/prisma-adapter": ^1.0.7
+  
+  # Validation
+  zod: ^3.22.4
+  
+  # Styling
+  tailwindcss: ^3.3.0
+  "@tailwindcss/forms": ^0.5.7
+  
+  # Utilities
+  clsx: ^2.0.0
+  lucide-react: ^0.292.0
+  
+  # Dev dependencies
+  eslint: ^8.48.0
+  "@typescript-eslint/eslint-plugin": ^6.7.0
+  "@typescript-eslint/parser": ^6.7.0
+  eslint-config-next: ^14.0.0
+  prettier: ^3.0.3
+  "@turbo/gen": ^1.10.16
+  turbo: ^1.10.16
